@@ -1,0 +1,17 @@
+/*NIM : 13020210281
+*Nama : Nabila Fauzan
+*Kelas : B2
+*Hari/tgl : Rabu/08-03-2023
+*/
+
+public class PrintHello {
+
+    public static void main(String[] args) {
+    // TODO Auto-generated method stub
+    /* menuliskan hello ke layar */ 
+    System.out.print("Hello");
+    System.out.print("\nHello ");
+    System.out.println("World");
+    System.out.println("Welcome");
+   }
+  }
