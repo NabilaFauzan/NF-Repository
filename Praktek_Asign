@@ -1,0 +1,14 @@
+/*NIM : 13020210281
+*Nama : Nabila Fauzan
+*Kelas : B2
+*Hari/tgl : Rabu/08-03-2023
+*/
+
+public class Asign {
+
+  public static void main(String[] args) {
+  int i;
+  System.out.print ("hello\n"); i = 5;
+  System.out.println ("Ini nilai i : " + i);
+  } 
+ }
