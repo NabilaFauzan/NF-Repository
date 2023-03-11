@@ -1,0 +1,39 @@
+/*
+ * NIM : 13020210281
+ * Nama : Nabila Fauzan
+ * Kelas : B2
+ * Hari/Tanggal : Jumat/10-3-2023
+ * Waktu : 14:27
+ */
+package kasuskonversiwaktu;
+import java.util.Scanner;
+public class KasusKonversiWaktu {
+
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner input = new Scanner(System.in);
+
+        // Meminta masukan detik dari pengguna
+        System.out.print("Masukkan jumlah detik: ");
+        long totalDetik = input.nextLong();
+
+        // Menghitung detik saat ini
+        long detikSaatIni = totalDetik % 60;
+
+        // Menghitung total menit
+        long totalMenit = totalDetik / 60;
+
+        // Menghitung menit saat ini
+        long menitSaatIni = totalMenit % 60;
+
+        // Menghitung total jam
+        long totalJam = totalMenit / 60;
+
+        // Menghitung jam saat ini
+        long jamSaatIni = totalJam % 24;
+        
+        // Menampilkan hasil konversi waktu dalam format jam:menit:detik
+        System.out.println("Waktu dalam format jam:menit:detik adalah " + jamSaatIni + ":" + menitSaatIni + ":" + detikSaatIni);
+    }
+    
+}
